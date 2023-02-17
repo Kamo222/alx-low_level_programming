@@ -20,7 +20,8 @@ while (number <= 9)
 }
 while (alphabet <= 'F')
 {
-putchar(alphabet);
+	putchar(alphabet);
+	--alphabet;
 }
 putchar('\n');
 return (0);
