@@ -15,14 +15,8 @@ int number = 0;
 while (number <= 9)
 {
 	putchar(number + '0');
-	while (number <= 9)
-	{
-		putchar(',');
-		while (number <= 9)
-		{
-			putchar(' ');
-		}
-	}
+	putchar(',');
+	putchar(' ');
 	++number;
 }
 putchar('\n');
