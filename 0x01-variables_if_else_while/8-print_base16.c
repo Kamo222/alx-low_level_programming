@@ -15,13 +15,13 @@ char alphabet = 'A';
 
 while (number <= 9)
 {
-	putchar(number + 0);
+	putchar(number + '0');
 	++number;
 }
 while (alphabet <= 'F')
 {
 	putchar(alphabet);
-	--alphabet;
+	++alphabet;
 }
 putchar('\n');
 return (0);
