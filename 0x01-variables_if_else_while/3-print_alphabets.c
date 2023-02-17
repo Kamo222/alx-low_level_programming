@@ -11,7 +11,7 @@
 int main(void)
 {
 	char alphabet = 'a';
-	char alphaBet = 'B';
+	char alphaBet = 'A';
 
 	while (alphabet <= 'z')
 	{
