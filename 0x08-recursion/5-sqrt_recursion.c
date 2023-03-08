@@ -9,7 +9,7 @@
 */
 int _sqrt_recursion_wrapper(int n, int min, int max)
 {
-	int guess, guess_squared;
+	double guess, guess_squared;
 
 	guess = (min + max) / 2;		/*get guess (g)*/
 	guess_squared = guess * guess;		/*square guess (sg)*/
@@ -32,7 +32,7 @@ int _sqrt_recursion_wrapper(int n, int min, int max)
  *
  * Return: square root
 */
-int _sqrt_recursion(int n)
+double _sqrt_recursion(int n)
 {
 	if (n == 1)		/*sqrt(1) == 1*/
 		return (1);
